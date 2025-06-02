@@ -13,7 +13,8 @@
     "lint:fix": "ng lint --fix",
     "format": "prettier --write \"src/**/*.{ts,html,scss}\"",
     "format:check": "prettier --check \"src/**/*.{ts,html,scss}\"",
-    "deploy:gh": "ng deploy --base-href=/AngularPOCShell/ --repo=https://github.com/Michael-Perillo/AngularPOCShell.git --name=\"Michael-Perillo\" --email=michael@perillo.me"
+    "deploy:gh": "ng deploy --base-href=/AngularPOCShell/ --repo=https://github.com/Michael-Perillo/AngularPOCShell.git --name=\"Michael-Perillo\" --email=michael@perillo.me",
+    "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
   },
   "private": true,
   "dependencies": {
@@ -30,6 +31,8 @@
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
+    "@angular-architects/module-federation": "^20.0.0",
+    "@angular-devkit/build-angular": "^20.0.0",
     "@angular-eslint/builder": "^19.6.0",
     "@angular-eslint/eslint-plugin": "^19.6.0",
     "@angular-eslint/eslint-plugin-template": "^19.6.0",
@@ -52,6 +55,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "^5.1.0",
     "karma-jasmine-html-reporter": "^2.1.0",
+    "ngx-build-plus": "^20.0.0",
     "prettier": "^3.5.3",
     "typescript": "~5.8.2"
   }
