@@ -7,17 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-    <!--TODO
-      In development, allow 'unsafe-eval' and remote script loading for module federation.
-      In production, remove 'unsafe-eval' and the remote origin for better security.
-    -->
-    <!-- CSP for development: allows localhost remote -->
+    <!-- CSP for production: allows only the production remote, no unsafe-eval -->
     <meta
       http-equiv="Content-Security-Policy"
-      content="script-src 'self' 'unsafe-eval' http://localhost:4201; object-src 'self'"
+      content="script-src 'self' https://michael-perillo.github.io/AngularMFE1-MinionManager; object-src 'self'"
     />
   </head>
   <body>
     <app-root></app-root>
   </body>
 </html>
+
