@@ -23,3 +23,11 @@ describe('App', () => {
     expect(app).toBeTruthy();
   });
 });
+
+describe('App Routes', () => {
+  it('should have a home route', () => {
+    const homeRoute = routes.find(r => r.path === '');
+    expect(homeRoute).toBeTruthy();
+    expect(homeRoute?.component).toBeDefined();
+  });
+});

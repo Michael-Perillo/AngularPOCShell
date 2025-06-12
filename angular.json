@@ -103,7 +103,10 @@
 						"styles": [
 							"src/styles.scss"
 						],
-						"karmaConfig": "karma.conf.js"
+						"karmaConfig": "karma.conf.js",
+            "codeCoverageExclude": [
+              "**/src/app/app.routes.ts"
+            ]
 					}
 				},
 				"lint": {
