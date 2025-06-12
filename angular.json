@@ -54,13 +54,7 @@
 								}
 							],
 							"outputHashing": "all",
-							"extraWebpackConfig": "webpack.prod.config.js",
-							"fileReplacements": [
-								{
-									"replace": "src/index.html",
-									"with": "src/index.prod.html"
-								}
-							]
+							"extraWebpackConfig": "webpack.prod.config.js"
 						},
 						"development": {
 							"optimization": false,
