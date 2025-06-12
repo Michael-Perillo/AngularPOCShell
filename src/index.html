@@ -11,7 +11,10 @@
       In development, allow 'unsafe-eval' and remote script loading for module federation.
       In production, remove 'unsafe-eval' and the remote origin for better security.
     -->
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' http://localhost:4201; object-src 'self'">
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-eval' http://localhost:4201; object-src 'self'"
+    />
   </head>
   <body>
     <app-root></app-root>

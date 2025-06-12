@@ -1,6 +1,6 @@
 # App
 
-[![codecov](https://codecov.io/github/Michael-Perillo/AngularPOCShell/graph/badge.svg?token=TLNM11X205)](https://codecov.io/github/Michael-Perillo/AngularPOCShell)
+[![codecov](https://codecov.io/gh/Michael-Perillo/AngularPOCShell/graph/badge.svg?token=L9IQRLNPZG)](https://codecov.io/gh/Michael-Perillo/AngularPOCShell)
 [![CI/CD Pipeline](https://github.com/Michael-Perillo/AngularPOCShell/actions/workflows/main.yml/badge.svg)](https://github.com/Michael-Perillo/AngularPOCShell/actions/workflows/main.yml)  
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.0.
